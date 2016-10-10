@@ -2,35 +2,7 @@
 from  urllib.request import  urlopen,quote
 from  urllib.error import  HTTPError,URLError
 import json,time
-img = '''
-         
 
-               树间朝阳      漫山绿草
-
-             是你一席白裙    向着孩子微笑
-
-           山区校园的红旗下有了你甜美歌声
-
-           颗颗感动的小灵心听着你尊尊教导
-
-             你走遍了乡县把孩子的家寻找
-
-               递上积蓄助他们迈入学校
-
-                 山花编成感激的金环
-
-                   戴上它泪光闪耀
-
-                     你点燃希望
-
-                       向着爱                 
-
-                        拥抱
-
-                         ！
-
-
-'''
 img1 = '''
 
            amQQQQga
@@ -58,34 +30,7 @@ img1 = '''
 
 '''
 
-str = '''
 
-天上掉钞票我不会弯腰，因为天上馅饼都不会掉，更别说掉钞票了！！！哈哈哈....
-
-
-
-        暗梅幽闻花，                        俺没有文化，
-
-         卧枝伤恨底，                    我智商很低，
-
-           遥闻卧似水，                要问我是谁，
-
-             易透达春绿。              头大蠢驴。
-
-               岸似绿,                 俺是驴，
-
-                 岸似透绿,         俺是头驴，
-
-                    岸似透黛绿.俺是头呆驴。
-                       。。。。。。。
-                         。。。。。
-                          。。。。
-                           。。。
-                            。。
-                             。
-
-
-'''
 
 url_heads = {
     'english':'http://howtospeak.org:443/api/e2c?user_key=dfcacb6404295f9ed9e430f67b641a8e&notrans=0&text=',
