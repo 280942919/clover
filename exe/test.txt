@@ -1,1 +1,1 @@
-一切因素都是不可控的，除了自己
+ping www.baidu.com
