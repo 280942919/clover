@@ -21,6 +21,6 @@ def find_file():
 def push_file():
     content = find_file()
     content2 = content.replace('\n',';').replace(' ',',')
-    url = ''+content2
+    url = 'http://localhost:8080/get/'+content2
     urlopen(url)
 push_file()
